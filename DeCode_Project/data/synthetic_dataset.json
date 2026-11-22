@@ -1,0 +1,253 @@
+[
+  {
+    "id": "TC01",
+    "title": "Tech Fest Orientation Planning",
+    "category": "Normal",
+    "transcript": "Riya: We’ll hold the fest orientation on 14 Oct, agreed? Arjun: Yes. Riya: Arjun, please book the seminar hall. Meera: I’ll design the poster, maybe by Friday. Arjun: Sponsors still undecided, let’s revisit next week.",
+    "gold": {
+      "decisions": [
+        {
+          "decision": "Hold fest orientation on 14 Oct",
+          "evidence": "We’ll hold the fest orientation on 14 Oct, agreed?"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Book the seminar hall",
+          "owner": "Arjun",
+          "deadline": "Not specified",
+          "evidence": "Arjun, please book the seminar hall."
+        },
+        {
+          "task": "Design the poster",
+          "owner": "Meera",
+          "deadline": "Friday (tentative)",
+          "evidence": "I’ll design the poster, maybe by Friday."
+        }
+      ],
+      "open_items": [
+        {
+          "topic": "Sponsors still undecided; revisit next week",
+          "evidence": "Sponsors still undecided, let’s revisit next week."
+        }
+      ]
+    }
+  },
+  {
+    "id": "TC02",
+    "title": "AI Club Weekly Standup",
+    "category": "Normal",
+    "transcript": "Kabir: Let's finalize Python 3.11 as our workshop environment. Sneha: Agreed, everyone uses 3.11. Kabir: Sneha, upload the setup guide to GitHub by Wednesday 6 PM. Dev: I will test the Colab notebooks before Thursday.",
+    "gold": {
+      "decisions": [
+        {
+          "decision": "Use Python 3.11 as the workshop environment",
+          "evidence": "Let's finalize Python 3.11 as our workshop environment."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Upload the setup guide to GitHub",
+          "owner": "Sneha",
+          "deadline": "Wednesday 6 PM",
+          "evidence": "Sneha, upload the setup guide to GitHub by Wednesday 6 PM."
+        },
+        {
+          "task": "Test the Colab notebooks",
+          "owner": "Dev",
+          "deadline": "Before Thursday",
+          "evidence": "I will test the Colab notebooks before Thursday."
+        }
+      ],
+      "open_items": []
+    }
+  },
+  {
+    "id": "TC03",
+    "title": "Unassigned Owner & Missing Deadline",
+    "category": "Edge Case",
+    "transcript": "Neha: Someone needs to clean up the shared Google Drive folder because it's messy. Also, we must renew the domain name soon. Rohan: Okay, we decided to shift our weekly sync to Saturdays at 11 AM.",
+    "gold": {
+      "decisions": [
+        {
+          "decision": "Shift weekly sync to Saturdays at 11 AM",
+          "evidence": "we decided to shift our weekly sync to Saturdays at 11 AM."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Clean up the shared Google Drive folder",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "evidence": "Someone needs to clean up the shared Google Drive folder because it's messy."
+        },
+        {
+          "task": "Renew the domain name",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "evidence": "Also, we must renew the domain name soon."
+        }
+      ],
+      "open_items": []
+    }
+  },
+  {
+    "id": "TC04",
+    "title": "Hackathon Logistics & Budget",
+    "category": "Normal",
+    "transcript": "Ananya: The registration fee is capped at 200 INR per team, final? Vikram: Yes, locked at 200 INR. Ananya: Vikram, send the budget sheet to Dean's office tomorrow morning. Priya: Catering vendor quotes are still pending, we will discuss on Monday.",
+    "gold": {
+      "decisions": [
+        {
+          "decision": "Cap registration fee at 200 INR per team",
+          "evidence": "The registration fee is capped at 200 INR per team, final?"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Send the budget sheet to Dean's office",
+          "owner": "Vikram",
+          "deadline": "Tomorrow morning",
+          "evidence": "Vikram, send the budget sheet to Dean's office tomorrow morning."
+        }
+      ],
+      "open_items": [
+        {
+          "topic": "Catering vendor quotes pending; discuss on Monday",
+          "evidence": "Catering vendor quotes are still pending, we will discuss on Monday."
+        }
+      ]
+    }
+  },
+  {
+    "id": "TC05",
+    "title": "Capstone Project Backend Sprint",
+    "category": "Normal",
+    "transcript": "Siddharth: We are switching from MongoDB to PostgreSQL for user auth. Tara: Makes sense. Siddharth: Tara, write the migration script by 20 Nov. I will update the Docker compose file tonight.",
+    "gold": {
+      "decisions": [
+        {
+          "decision": "Switch from MongoDB to PostgreSQL for user auth",
+          "evidence": "We are switching from MongoDB to PostgreSQL for user auth."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Write the migration script",
+          "owner": "Tara",
+          "deadline": "20 Nov",
+          "evidence": "Tara, write the migration script by 20 Nov."
+        },
+        {
+          "task": "Update the Docker compose file",
+          "owner": "Siddharth",
+          "deadline": "Tonight",
+          "evidence": "I will update the Docker compose file tonight."
+        }
+      ],
+      "open_items": []
+    }
+  },
+  {
+    "id": "TC06",
+    "title": "Casual Banter & No Action Items",
+    "category": "Edge Case (Zero Tasks)",
+    "transcript": "Aarav: Hey guys, did you watch the cricket match last night? Diya: Yeah, crazy finish! Aarav: Anyway, canteen coffee was terrible today. Let's wrap up early since there's no agenda.",
+    "gold": {
+      "decisions": [],
+      "action_items": [],
+      "open_items": []
+    }
+  },
+  {
+    "id": "TC07",
+    "title": "Social Media Content Calendar",
+    "category": "Normal",
+    "transcript": "Ishaan: Let's post three reels per week instead of daily. Kriti: Approved. Kriti: Ishaan, draft the captions for the aviation series by Sunday. We haven't picked the background music tracks yet.",
+    "gold": {
+      "decisions": [
+        {
+          "decision": "Post three reels per week instead of daily",
+          "evidence": "Let's post three reels per week instead of daily."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Draft the captions for the aviation series",
+          "owner": "Ishaan",
+          "deadline": "By Sunday",
+          "evidence": "Ishaan, draft the captions for the aviation series by Sunday."
+        }
+      ],
+      "open_items": [
+        {
+          "topic": "Background music tracks not yet picked",
+          "evidence": "We haven't picked the background music tracks yet."
+        }
+      ]
+    }
+  },
+  {
+    "id": "TC08",
+    "title": "Rejected Proposal vs Final Decision",
+    "category": "Edge Case (Negation)",
+    "transcript": "Manav: Should we print 500 brochures? Pooja: No, printing is too expensive, let's stick to QR codes only. Manav: Agreed, QR codes only. Pooja, generate the QR poster PDF by Friday.",
+    "gold": {
+      "decisions": [
+        {
+          "decision": "Use QR codes only instead of printing brochures",
+          "evidence": "let's stick to QR codes only. Manav: Agreed, QR codes only."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Generate the QR poster PDF",
+          "owner": "Pooja",
+          "deadline": "By Friday",
+          "evidence": "Pooja, generate the QR poster PDF by Friday."
+        }
+      ],
+      "open_items": []
+    }
+  },
+  {
+    "id": "TC09",
+    "title": "Research Paper Literature Review",
+    "category": "Normal",
+    "transcript": "Prof. Rao: Use IEEE format for the conference submission. Tanvi: Noted. Tanvi: Kunal, summarize the 5 baseline papers by 18 Nov. Tanvi will format the comparison table over the weekend.",
+    "gold": {
+      "decisions": [
+        {
+          "decision": "Use IEEE format for the conference submission",
+          "evidence": "Use IEEE format for the conference submission."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Summarize the 5 baseline papers",
+          "owner": "Kunal",
+          "deadline": "18 Nov",
+          "evidence": "Kunal, summarize the 5 baseline papers by 18 Nov."
+        },
+        {
+          "task": "Format the comparison table",
+          "owner": "Tanvi",
+          "deadline": "Over the weekend",
+          "evidence": "Tanvi will format the comparison table over the weekend."
+        }
+      ],
+      "open_items": []
+    }
+  },
+  {
+    "id": "TC10",
+    "title": "Corrupted / Gibberish Transcript Input",
+    "category": "Invalid Input",
+    "transcript": "### AUDIO_ERR_404 ... [inaudible static] ... xyz123 @@@ ???",
+    "gold": {
+      "decisions": [],
+      "action_items": [],
+      "open_items": []
+    }
+  }
+]

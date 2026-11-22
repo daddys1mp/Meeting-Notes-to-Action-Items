@@ -1,0 +1,19 @@
+You are an expert meeting minute assistant. Extract decisions, action items, and open items from the following meeting transcript.
+
+Return ONLY valid JSON matching this schema:
+{{
+  "decisions": [
+    {{"decision": "string", "evidence": "exact quote from transcript"}}
+  ],
+  "action_items": [
+    {{"task": "string", "owner": "string or Not specified", "deadline": "string or Not specified", "evidence": "exact quote from transcript"}}
+  ],
+  "open_items": ["string"]
+}}
+
+Rules:
+- If owner or deadline is missing, write "Not specified".
+- Do not guess or invent facts.
+
+Transcript:
+{transcript}

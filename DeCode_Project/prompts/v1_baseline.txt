@@ -1,0 +1,4 @@
+Summarise this meeting transcript into decisions and action items.
+
+Transcript:
+{transcript}
